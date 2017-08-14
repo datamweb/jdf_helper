@@ -17,8 +17,8 @@ Usage
 =====
 For example, typing in the view file.
 
-- <?php echo jstrftime('%Y/%m/%d')?>
-- <?php echo gregorian_to_jalali(2017,03,21,'/');?>
+<?php echo jstrftime('%Y/%m/%d')?>
+<?php echo gregorian_to_jalali(2017,03,21,'/');?>
 
 Contact info
 ============
