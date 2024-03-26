@@ -20,9 +20,13 @@ For example, typing in the view file.
 
 - echo jstrftime('%Y/%m/%d');
 - echo gregorian_to_jalali(2017,03,21,'/');
+- ```php
+  $created_at = '2024-03-26 03:23:32';
+  jdate('Y-m-d H:i:s',strtotime($created_at)); //۱۴۰۳-۰۱-۰۷ ۰۳:۲۳:۳۲
+  
+  ```
 
 Contact info
 ============
 - Email:Pooya_parsa_dadashi{in}yahoo.com
 - website: http://DatamWeb.ir/
-- mobile : +989118847648
